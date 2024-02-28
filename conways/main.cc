@@ -16,6 +16,10 @@ int main()
         baduk.append("\n");
     }
 
+    baduk.replace((32+1)*7+15,1,"1");
+    baduk.replace((32+1)*8+14,3,"111");
+    baduk.replace((32+1)*9+15,1,"1");
+
     cout << baduk << endl;
 
     return 0;
